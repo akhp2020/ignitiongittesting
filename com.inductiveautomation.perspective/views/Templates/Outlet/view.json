@@ -1,0 +1,76 @@
+{
+  "custom": {
+    "values": {
+      "parameters": {
+        "param1": 2,
+        "param2": "asdf"
+      },
+      "value1": 1,
+      "value2": 2,
+      "value3": 3
+    }
+  },
+  "params": {},
+  "propConfig": {
+    "custom.values": {
+      "binding": {
+        "config": {
+          "fallbackDelay": 2.5,
+          "mode": "direct",
+          "tagPath": "[default]test2"
+        },
+        "type": "tag"
+      },
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 150,
+      "width": 250
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Icon"
+            },
+            "position": {
+              "basis": "50%"
+            },
+            "props": {
+              "path": "material/outlet"
+            },
+            "type": "ia.display.icon"
+          },
+          {
+            "meta": {
+              "name": "ToggleSwitch"
+            },
+            "position": {
+              "basis": "50%"
+            },
+            "type": "ia.input.toggle-switch"
+          }
+        ],
+        "meta": {
+          "name": "FlexContainer"
+        },
+        "position": {
+          "basis": "100px"
+        },
+        "props": {
+          "direction": "column"
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.flex"
+  }
+}

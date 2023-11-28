@@ -1,0 +1,37 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "apexchart"
+        },
+        "position": {
+          "basis": "295px"
+        },
+        "props": {
+          "options": {
+            "plotOptions": {
+              "bar": {
+                "barHeight": "50%",
+                "horizontal": true,
+                "rangeBarGroups": true
+              }
+            }
+          },
+          "type": "rangeBar"
+        },
+        "type": "kyvislabs.display.apexchart"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}
