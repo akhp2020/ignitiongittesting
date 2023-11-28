@@ -1,0 +1,159 @@
+{
+  "name": "",
+  "tagType": "Provider",
+  "tags": [
+    {
+      "name": "Transmission Info",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "Version",
+          "tagType": "AtomicTag",
+          "value": "4.0.18 (b2023081122)"
+        },
+        {
+          "name": "Transmitters",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Example Transmitter",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "name": "Edge Nodes",
+                  "tagType": "Folder",
+                  "tags": [
+                    {
+                      "name": "My MQTT Group",
+                      "tagType": "Folder",
+                      "tags": [
+                        {
+                          "name": "Edge Node 061bcf",
+                          "tagType": "Folder",
+                          "tags": [
+                            {
+                              "name": "Refresh Edge Node",
+                              "tagType": "AtomicTag",
+                              "value": false
+                            },
+                            {
+                              "name": "Tags Per Second",
+                              "tagType": "AtomicTag",
+                              "value": 0
+                            },
+                            {
+                              "accessRights": "Read_Write",
+                              "dataType": "Boolean",
+                              "enabled": true,
+                              "name": "Reset Metrics",
+                              "tagType": "AtomicTag",
+                              "value": false
+                            },
+                            {
+                              "name": "Enable Tag Tracking",
+                              "tagType": "AtomicTag",
+                              "value": 0
+                            },
+                            {
+                              "name": "Tag Count",
+                              "tagType": "AtomicTag",
+                              "value": 0
+                            },
+                            {
+                              "name": "MQTT Client",
+                              "tagType": "Folder",
+                              "tags": [
+                                {
+                                  "name": "MQTT Client ID",
+                                  "tagType": "AtomicTag",
+                                  "value": "MT-a14f63fe-421e-4b44"
+                                },
+                                {
+                                  "name": "Primary Host ID",
+                                  "tagType": "AtomicTag"
+                                },
+                                {
+                                  "name": "Offline DateTime",
+                                  "tagType": "AtomicTag"
+                                },
+                                {
+                                  "name": "Enable Latency Check",
+                                  "tagType": "AtomicTag",
+                                  "value": false
+                                },
+                                {
+                                  "name": "Command Latency",
+                                  "tagType": "AtomicTag",
+                                  "value": -1
+                                },
+                                {
+                                  "name": "Online",
+                                  "tagType": "AtomicTag",
+                                  "value": false
+                                },
+                                {
+                                  "name": "Target Server URL",
+                                  "tagType": "AtomicTag",
+                                  "value": "tcp://localhost:1883"
+                                },
+                                {
+                                  "name": "Online DateTime",
+                                  "tagType": "AtomicTag"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Refresh Required",
+          "tagType": "AtomicTag",
+          "value": false
+        },
+        {
+          "name": "Redundancy Role",
+          "tagType": "AtomicTag",
+          "value": "Independent"
+        },
+        {
+          "name": "Redundancy State",
+          "tagType": "AtomicTag",
+          "value": "Active"
+        }
+      ]
+    },
+    {
+      "name": "Transmission Control",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "Discover Edge Nodes",
+          "tagType": "AtomicTag",
+          "value": false
+        },
+        {
+          "name": "Refresh",
+          "tagType": "AtomicTag",
+          "value": false
+        },
+        {
+          "name": "Last Refresh",
+          "tagType": "AtomicTag",
+          "value": 1701097883450
+        },
+        {
+          "name": "Discover Edge Nodes Required",
+          "tagType": "AtomicTag",
+          "value": false
+        }
+      ]
+    }
+  ]
+}

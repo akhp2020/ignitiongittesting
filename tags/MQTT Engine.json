@@ -1,0 +1,156 @@
+{
+  "name": "",
+  "tagType": "Provider",
+  "tags": [
+    {
+      "name": "Message Diagnostics",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "Selected Node",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Message",
+          "tagType": "AtomicTag"
+        }
+      ]
+    },
+    {
+      "name": "Engine Control",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "Primary Host",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Enabled",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "ID",
+              "tagType": "AtomicTag"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "_types_",
+      "tagType": "Folder"
+    },
+    {
+      "name": "Engine Info",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "Total Bytes Xmit",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Redundancy State",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Total Bytes Recvd",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "System-Wide Reset Info",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Redundancy Role",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "Devices",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "DeviceCount",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "DevicesOffline",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "DevicesOnline",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Edge Nodes",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "Last Node To Connect",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Last Node To Disconnect",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Offline Nodes",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "NodesOnline",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "Online Nodes",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "NodesOffline",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "NodeUnitCount",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Total Data Mesg Count",
+          "tagType": "AtomicTag"
+        },
+        {
+          "name": "MQTT Clients",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "newone",
+              "tagType": "Folder"
+            },
+            {
+              "name": "localserver",
+              "tagType": "Folder"
+            },
+            {
+              "name": "test",
+              "tagType": "Folder"
+            },
+            {
+              "name": "hivemqexternal",
+              "tagType": "Folder"
+            },
+            {
+              "name": "Chariot SCADA",
+              "tagType": "Folder"
+            }
+          ]
+        },
+        {
+          "name": "Version",
+          "tagType": "AtomicTag"
+        }
+      ]
+    }
+  ]
+}

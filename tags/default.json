@@ -1,0 +1,2688 @@
+{
+  "name": "",
+  "tagType": "Provider",
+  "tags": [
+    {
+      "name": "rates",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "depanner",
+          "tagType": "AtomicTag",
+          "value": 85,
+          "valueSource": "memory"
+        },
+        {
+          "name": "proofer",
+          "tagType": "AtomicTag",
+          "value": 15,
+          "valueSource": "memory"
+        },
+        {
+          "name": "moulder",
+          "tagType": "AtomicTag",
+          "value": 60,
+          "valueSource": "memory"
+        },
+        {
+          "dataType": "Float4Array",
+          "name": "New Tag",
+          "tagType": "AtomicTag",
+          "value": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "valueSource": "memory"
+        },
+        {
+          "name": "packaging",
+          "tagType": "AtomicTag",
+          "value": 81,
+          "valueSource": "memory"
+        },
+        {
+          "name": "oven",
+          "tagType": "AtomicTag",
+          "value": 4,
+          "valueSource": "memory"
+        },
+        {
+          "name": "divider",
+          "tagType": "AtomicTag",
+          "value": 20,
+          "valueSource": "memory"
+        }
+      ]
+    },
+    {
+      "name": "Axis_10",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "dataType": "Boolean",
+          "name": "Zero_PB",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.Zero_PB",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "Axis_Clock",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.Axis_Clock",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Float4",
+          "name": "Offset",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.Offset",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Float4",
+          "name": "ABS_INCR",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.ABS_INCR",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "Axis_Check_Mark",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.Axis_Check_Mark",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "ABS_PB_HMI",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.ABS_PB_HMI",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Float4",
+          "name": "Position_HMI",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.Position_HMI",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "FWD_HMI",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.FWD_HMI",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "Axis_Queued_OK",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.Axis_Queued_OK",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "REV_HMI",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.REV_HMI",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "Axis_In_Range",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.Axis_In_Range",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Int2",
+          "name": "Axis_Color",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.Axis_Color",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "Disabled",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.Disabled",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Float4",
+          "name": "Tolerance_High",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.Tolerance_High",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "NOT_Exists",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.NOT_Exists",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "Auto_PB_HMI",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.Auto_PB_HMI",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Float4",
+          "name": "Tolerance_Low",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.Tolerance_Low",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "Pre_Sanity",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.Pre_Sanity",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Float4",
+          "name": "Auto_INCR_HMI",
+          "opcItemPath": "ns\u003d1;s\u003d[martin]Axis_10.Auto_INCR_HMI",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        }
+      ]
+    },
+    {
+      "name": "test",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "value2",
+          "tagType": "AtomicTag",
+          "value": 45,
+          "valueSource": "memory"
+        },
+        {
+          "name": "value1",
+          "tagType": "AtomicTag",
+          "value": 81,
+          "valueSource": "memory"
+        },
+        {
+          "name": "value4",
+          "tagType": "AtomicTag",
+          "value": 4,
+          "valueSource": "memory"
+        },
+        {
+          "name": "value3",
+          "tagType": "AtomicTag",
+          "value": 15,
+          "valueSource": "memory"
+        }
+      ]
+    },
+    {
+      "name": "Prt4C",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "T_ChangeHose",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_ChangeHose.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_ChangeHose.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_ChangeHose.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_ChangeHose.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_ChangeHose.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSW219WashTime",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSW219WashTime",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSL201SafetyGuardUnlocked",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSL201SafetyGuardUnlocked",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "name": "T_AllowPrepStartUnlocked",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_AllowPrepStartUnlocked.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_AllowPrepStartUnlocked.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_AllowPrepStartUnlocked.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_AllowPrepStartUnlocked.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_AllowPrepStartUnlocked.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "name": "C_InkingDiesOn",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "OV",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_InkingDiesOn.OV",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "CD",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_InkingDiesOn.CD",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "UN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_InkingDiesOn.UN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "CU",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_InkingDiesOn.CU",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_InkingDiesOn.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_InkingDiesOn.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_InkingDiesOn.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iU210Failure",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iU210Failure",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "name": "T_SearchClutch",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_SearchClutch.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_SearchClutch.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_SearchClutch.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_SearchClutch.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_SearchClutch.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSP204Stop",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSP204Stop",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "bInkPumpRev",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.bInkPumpRev",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "name": "C_ChangeHose",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "CD",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_ChangeHose.CD",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_ChangeHose.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "OV",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_ChangeHose.OV",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_ChangeHose.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_ChangeHose.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "CU",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_ChangeHose.CU",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "UN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_ChangeHose.UN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "name": "T_Wash2_WaterChamberPan",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash2_WaterChamberPan.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash2_WaterChamberPan.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash2_WaterChamberPan.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash2_WaterChamberPan.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash2_WaterChamberPan.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oYV206ATapWater",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oYV206ATapWater",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSW220WashStartStop",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSW220WashStartStop",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "name": "T_LongWash",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_LongWash.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_LongWash.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_LongWash.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_LongWash.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_LongWash.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "dataType": "Int4",
+          "name": "ScaledInkSpeedRef",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.ScaledInkSpeedRef",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSL205LockPinsOff",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSL205LockPinsOff",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iBF210InkFlow",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iBF210InkFlow",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oYV201BPrintUnitOff",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oYV201BPrintUnitOff",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "name": "T_ShortWash",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_ShortWash.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_ShortWash.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_ShortWash.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_ShortWash.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_ShortWash.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oU210RunRev",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oU210RunRev",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oSL201Lock",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oSL201Lock",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "name": "C_InkingDiesOff",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_InkingDiesOff.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_InkingDiesOff.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_InkingDiesOff.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "CD",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_InkingDiesOff.CD",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "CU",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_InkingDiesOff.CU",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "UN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_InkingDiesOff.UN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "OV",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.C_InkingDiesOff.OV",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "name": "T_SpeedUpFillInk",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_SpeedUpFillInk.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_SpeedUpFillInk.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_SpeedUpFillInk.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_SpeedUpFillInk.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_SpeedUpFillInk.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "name": "T_UnlockM213",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_UnlockM213.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_UnlockM213.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_UnlockM213.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_UnlockM213.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_UnlockM213.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "name": "T_PrintOffPulse",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_PrintOffPulse.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_PrintOffPulse.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_PrintOffPulse.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_PrintOffPulse.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_PrintOffPulse.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "dataType": "Boolean",
+          "name": "bStartWash",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.bStartWash",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Int2",
+          "name": "DX201FaultCode",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.DX201FaultCode",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Int2",
+          "name": "onU210InkPump",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.onU210InkPump",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "name": "T_HiPressureHydroComp",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_HiPressureHydroComp.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_HiPressureHydroComp.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_HiPressureHydroComp.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_HiPressureHydroComp.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_HiPressureHydroComp.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "dataType": "Int4",
+          "name": "WaterPulseLength",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.WaterPulseLength",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "name": "T_Wash3_Cleaning",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash3_Cleaning.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash3_Cleaning.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash3_Cleaning.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash3_Cleaning.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash3_Cleaning.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSL207ChamberBeamRearPos",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSL207ChamberBeamRearPos",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSW210PrintOn",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSW210PrintOn",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oSW220Wash",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oSW220Wash",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "name": "T_Wash1_DrainInk",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash1_DrainInk.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash1_DrainInk.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash1_DrainInk.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash1_DrainInk.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash1_DrainInk.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "name": "T_Wash5_WaterChamber",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash5_WaterChamber.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash5_WaterChamber.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash5_WaterChamber.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash5_WaterChamber.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash5_WaterChamber.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSW213IdlingInkRollStop",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSW213IdlingInkRollStop",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSW211PumpSpeedInc",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSW211PumpSpeedInc",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSP202BDieMountPlus",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSP202BDieMountPlus",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "bInkRollStarted",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.bInkRollStarted",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSP202ADieMountMinus",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSP202ADieMountMinus",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "bMoveChamberOn",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.bMoveChamberOn",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "bInkPumpFwd",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.bInkPumpFwd",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Int4",
+          "name": "PreviousSpeed",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.PreviousSpeed",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oYV205DieMount",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oYV205DieMount",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oYV211WaterToSplash",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oYV211WaterToSplash",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Int4",
+          "name": "InkSpeedRef",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.InkSpeedRef",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "name": "T_Wash7_IdlingInkRoller",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash7_IdlingInkRoller.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash7_IdlingInkRoller.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash7_IdlingInkRoller.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash7_IdlingInkRoller.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash7_IdlingInkRoller.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "name": "T_LowFlowStopFeed",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_LowFlowStopFeed.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_LowFlowStopFeed.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_LowFlowStopFeed.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_LowFlowStopFeed.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_LowFlowStopFeed.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "dataType": "Boolean",
+          "name": "bMoveChamberOff",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.bMoveChamberOff",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "name": "T_WaterPulseInterval",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_WaterPulseInterval.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_WaterPulseInterval.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_WaterPulseInterval.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_WaterPulseInterval.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_WaterPulseInterval.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSW213IdlingInkRollStart",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSW213IdlingInkRollStart",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oHL216ChamberBeamWorkingPos",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oHL216ChamberBeamWorkingPos",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oSW213IdlingInkRoll",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oSW213IdlingInkRoll",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSP207Jog",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSP207Jog",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "name": "T_ManualWaterPulse",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_ManualWaterPulse.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_ManualWaterPulse.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_ManualWaterPulse.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_ManualWaterPulse.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_ManualWaterPulse.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "dataType": "Boolean",
+          "name": "bStopWash",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.bStopWash",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSW217InkPumpStop",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSW217InkPumpStop",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "bWashStarted",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.bWashStarted",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oYV203StopPins",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oYV203StopPins",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "name": "T_InkSpeedAdjust",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_InkSpeedAdjust.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_InkSpeedAdjust.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_InkSpeedAdjust.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_InkSpeedAdjust.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_InkSpeedAdjust.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oYV209HiPressHydroCompOn",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oYV209HiPressHydroCompOn",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oYV208UnlockCaliper",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oYV208UnlockCaliper",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "name": "T_Wash4_DrainWater",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash4_DrainWater.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash4_DrainWater.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash4_DrainWater.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash4_DrainWater.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash4_DrainWater.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oYV206BDrainDoctorBladeChmb",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oYV206BDrainDoctorBladeChmb",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSW211PumpSpeedDec",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSW211PumpSpeedDec",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iQL201",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iQL201",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "name": "T_Wash6_DrainSystem",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Int4",
+              "name": "ACC",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash6_DrainSystem.ACC",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "TT",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash6_DrainSystem.TT",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Int4",
+              "name": "PRE",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash6_DrainSystem.PRE",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "EN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash6_DrainSystem.EN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DN",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.T_Wash6_DrainSystem.DN",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSW217InkPumpStart",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSW217InkPumpStart",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oU210RunFwd",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oU210RunFwd",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "bJSRr01",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.bJSRr01",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "name": "Unit",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "Jam",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.Jam",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "CD_FeederSlotter",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.CD_FeederSlotter",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "U315Minus",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.U315Minus",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "BoardFeedUndelayed",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.BoardFeedUndelayed",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "SLS619",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.SLS619",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "U316Plus",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.U316Plus",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "DecSpeedReq",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.DecSpeedReq",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "OkToSettingAll",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.OkToSettingAll",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "ControlVoltageOn",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.ControlVoltageOn",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "SirenOpReq",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.SirenOpReq",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "U316Minus",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.U316Minus",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "ServiceJogReq",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.ServiceJogReq",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "OkToRun",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.OkToRun",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FeedOnOffReq",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.FeedOnOffReq",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "IncSpeedReq",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.IncSpeedReq",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "StartReq",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.StartReq",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "ServiceBox",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.ServiceBox",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "SettingFeederReq",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.SettingFeederReq",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FansOn",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.FansOn",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "GlueOn",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.GlueOn",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "U315Plus",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.U315Plus",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "CU_FeederSlotter",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.CU_FeederSlotter",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "OkToFeed",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.OkToFeed",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "StopReq",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.StopReq",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "Feeding",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.Feeding",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "ServiceMode",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.ServiceMode",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "VacuumFansOn",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.VacuumFansOn",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "OkToJog",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.OkToJog",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "JogReq",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.JogReq",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "Keyswitch",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.Keyswitch",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "ResetFeederSlotter",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.ResetFeederSlotter",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "LowInkFlow",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.LowInkFlow",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "UnitExist",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.UnitExist",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "FansOnOffReq",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.FansOnOffReq",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "AirPressureOk",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.AirPressureOk",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "EStop",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.EStop",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            },
+            {
+              "dataType": "Boolean",
+              "name": "SLS620",
+              "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.Unit.SLS620",
+              "opcServer": "Ignition OPC UA Server",
+              "tagType": "AtomicTag",
+              "valueSource": "opc"
+            }
+          ]
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSW220WashDrain",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSW220WashDrain",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iSP218DoctorBladeChamberOn",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iSP218DoctorBladeChamberOn",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "iBI202ChamberBeamServicePos",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.iBI202ChamberBeamServicePos",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Int4",
+          "name": "ONS",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.ONS",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oYV204PrintCylinderDown",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oYV204PrintCylinderDown",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oSP218DoctorChamberBladeOn",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oSP218DoctorChamberBladeOn",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oSW210PrintUnitOn",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oSW210PrintUnitOn",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "oSW217InkPump",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.oSW217InkPump",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        },
+        {
+          "dataType": "Boolean",
+          "name": "bInvertDrain",
+          "opcItemPath": "ns\u003d1;s\u003d[emba]Prt4C.bInvertDrain",
+          "opcServer": "Ignition OPC UA Server",
+          "tagType": "AtomicTag",
+          "valueSource": "opc"
+        }
+      ]
+    },
+    {
+      "name": "test2",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "parameters",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "name": "param1",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "param2",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "value3",
+          "tagType": "AtomicTag",
+          "value": 3
+        },
+        {
+          "name": "value1",
+          "tagType": "AtomicTag",
+          "value": 1
+        },
+        {
+          "name": "hello",
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "value",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "sequence",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "exists",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "value2",
+          "tagType": "AtomicTag",
+          "value": 2
+        }
+      ],
+      "typeId": "test"
+    },
+    {
+      "dataType": "Int2",
+      "name": "TestInteger",
+      "opcItemPath": "ns\u003d1;s\u003dMemory.TestInteger",
+      "opcServer": "PLC Engine Collect Server on LAPTOP-K6LDMN8Q:4840",
+      "tagType": "AtomicTag",
+      "valueSource": "opc"
+    },
+    {
+      "historyEnabled": false,
+      "historyProvider": "test",
+      "name": "tstest 1",
+      "tagType": "AtomicTag",
+      "value": 25,
+      "valueSource": "memory"
+    },
+    {
+      "historyEnabled": false,
+      "historyProvider": "test",
+      "name": "tstest",
+      "tagType": "AtomicTag",
+      "value": 10,
+      "valueSource": "memory"
+    },
+    {
+      "name": "machineValues",
+      "parameters": {
+        "Unit": {
+          "dataType": "String",
+          "value": "rpm"
+        }
+      },
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Packaging",
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "exists",
+              "tagType": "AtomicTag",
+              "value": true
+            },
+            {
+              "name": "value",
+              "tagType": "AtomicTag",
+              "value": 22
+            },
+            {
+              "name": "sequence",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Divider",
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "value",
+              "tagType": "AtomicTag",
+              "value": 55
+            },
+            {
+              "name": "sequence",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "exists",
+              "tagType": "AtomicTag",
+              "value": true
+            }
+          ]
+        },
+        {
+          "name": "Oven",
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "exists",
+              "tagType": "AtomicTag",
+              "value": false
+            },
+            {
+              "name": "value",
+              "tagType": "AtomicTag",
+              "value": 44
+            },
+            {
+              "name": "sequence",
+              "tagType": "AtomicTag"
+            }
+          ]
+        },
+        {
+          "name": "Proofer",
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "exists",
+              "tagType": "AtomicTag",
+              "value": true
+            },
+            {
+              "name": "sequence",
+              "tagType": "AtomicTag",
+              "value": 3
+            },
+            {
+              "name": "value",
+              "tagType": "AtomicTag",
+              "value": 25
+            }
+          ]
+        },
+        {
+          "name": "Moulder",
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "value",
+              "tagType": "AtomicTag",
+              "value": 60
+            },
+            {
+              "name": "sequence",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "exists",
+              "tagType": "AtomicTag",
+              "value": false
+            }
+          ]
+        },
+        {
+          "name": "Depanner",
+          "tagType": "UdtInstance",
+          "tags": [
+            {
+              "name": "value",
+              "tagType": "AtomicTag",
+              "value": 22
+            },
+            {
+              "name": "sequence",
+              "tagType": "AtomicTag"
+            },
+            {
+              "name": "exists",
+              "tagType": "AtomicTag",
+              "value": false
+            }
+          ]
+        }
+      ],
+      "typeId": "machineValues"
+    },
+    {
+      "name": "MQTT Tags",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "PLC 1",
+          "tagType": "Folder",
+          "tags": [
+            {
+              "dataType": "Int4",
+              "name": "Example Tag",
+              "readOnly": false,
+              "readPermissions": {
+                "securityLevels": [],
+                "type": "AllOf"
+              },
+              "tagType": "AtomicTag",
+              "value": 1,
+              "writePermissions": {
+                "securityLevels": [],
+                "type": "AllOf"
+              }
+            },
+            {
+              "dataType": "String",
+              "name": "MQTT Quickstart",
+              "readOnly": true,
+              "readPermissions": {
+                "securityLevels": [],
+                "type": "AllOf"
+              },
+              "tagType": "AtomicTag",
+              "value": "This folder contains tags tied to an MQTT Transmission \u0027Transmitter\u0027 configuration. Any tags added directly under the \u0027MQTT Tags\u0027 folder will be published to the configured MQTT Server. Additional information about how to modify this configuration to represent different tag structures can be found here: https://docs.chariot.io/display/CLD80/MQTT+Transmission+Transmitters+and+Tag+Trees",
+              "writePermissions": {
+                "securityLevels": [],
+                "type": "AllOf"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "historyEnabled": true,
+      "historyProvider": "NewConnection",
+      "name": "tscomp",
+      "tagType": "AtomicTag",
+      "value": 20,
+      "valueSource": "memory"
+    },
+    {
+      "name": "metrics",
+      "tagType": "UdtInstance",
+      "tags": [
+        {
+          "name": "Oven",
+          "tagType": "AtomicTag",
+          "value": 8
+        },
+        {
+          "name": "Divider",
+          "tagType": "AtomicTag",
+          "value": 66
+        },
+        {
+          "name": "Proofer",
+          "tagType": "AtomicTag",
+          "value": 2
+        }
+      ],
+      "typeId": "values"
+    },
+    {
+      "name": "_types_",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "name": "values",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Divider",
+              "tagType": "AtomicTag",
+              "valueSource": "memory"
+            },
+            {
+              "name": "Proofer",
+              "tagType": "AtomicTag",
+              "valueSource": "memory"
+            },
+            {
+              "name": "Oven",
+              "tagType": "AtomicTag",
+              "valueSource": "memory"
+            }
+          ]
+        },
+        {
+          "name": "machineValues",
+          "parameters": {
+            "Unit": {
+              "dataType": "String"
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "Proofer",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "sequence",
+                  "tagType": "AtomicTag",
+                  "value": 3
+                },
+                {
+                  "name": "exists",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "value",
+                  "tagType": "AtomicTag"
+                }
+              ],
+              "typeId": "machine"
+            },
+            {
+              "name": "Oven",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "value",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "exists",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "sequence",
+                  "tagType": "AtomicTag",
+                  "value": 4
+                }
+              ],
+              "typeId": "machine"
+            },
+            {
+              "name": "Divider",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "value",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "sequence",
+                  "tagType": "AtomicTag",
+                  "value": 1
+                },
+                {
+                  "name": "exists",
+                  "tagType": "AtomicTag"
+                }
+              ],
+              "typeId": "machine"
+            },
+            {
+              "name": "Packaging",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "value",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "sequence",
+                  "tagType": "AtomicTag",
+                  "value": 6
+                },
+                {
+                  "name": "exists",
+                  "tagType": "AtomicTag"
+                }
+              ],
+              "typeId": "machine"
+            },
+            {
+              "name": "Depanner",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "exists",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "sequence",
+                  "tagType": "AtomicTag",
+                  "value": 5
+                },
+                {
+                  "expression": "getMillis(now(5000))-({[.]sequence}*100)",
+                  "name": "value",
+                  "tagType": "AtomicTag"
+                }
+              ],
+              "typeId": "machine"
+            },
+            {
+              "name": "Moulder",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "sequence",
+                  "tagType": "AtomicTag",
+                  "value": 2
+                },
+                {
+                  "name": "value",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "exists",
+                  "tagType": "AtomicTag"
+                }
+              ],
+              "typeId": "machine"
+            }
+          ]
+        },
+        {
+          "name": "test",
+          "parameters": {
+            "param1": {
+              "dataType": "Integer",
+              "value": 2
+            },
+            "param2": {
+              "dataType": "String",
+              "value": "asdf"
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "parameters",
+              "tagType": "Folder",
+              "tags": [
+                {
+                  "expression": "{param1}",
+                  "name": "param1",
+                  "tagType": "AtomicTag",
+                  "valueSource": "expr"
+                },
+                {
+                  "dataType": "String",
+                  "expression": "{param2}",
+                  "name": "param2",
+                  "tagType": "AtomicTag",
+                  "valueSource": "expr"
+                }
+              ]
+            },
+            {
+              "name": "value3",
+              "tagType": "AtomicTag",
+              "valueSource": "memory"
+            },
+            {
+              "name": "hello",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "name": "sequence",
+                  "tagType": "AtomicTag",
+                  "value": 123
+                },
+                {
+                  "name": "exists",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "value",
+                  "tagType": "AtomicTag"
+                }
+              ],
+              "typeId": "machine"
+            },
+            {
+              "name": "value2",
+              "tagType": "AtomicTag",
+              "valueSource": "memory"
+            },
+            {
+              "name": "value1",
+              "tagType": "AtomicTag",
+              "valueSource": "memory"
+            }
+          ]
+        },
+        {
+          "name": "machineValues 1",
+          "parameters": {
+            "Unit": {
+              "dataType": "String"
+            }
+          },
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "name": "machine1",
+              "tagType": "UdtInstance",
+              "tags": [
+                {
+                  "expression": "getMillis(now(5000))-({[.]sequence}*100)",
+                  "name": "value",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "exists",
+                  "tagType": "AtomicTag"
+                },
+                {
+                  "name": "sequence",
+                  "tagType": "AtomicTag",
+                  "value": 5
+                }
+              ],
+              "typeId": "machine"
+            }
+          ]
+        },
+        {
+          "name": "machine",
+          "tagType": "UdtType",
+          "tags": [
+            {
+              "dataType": "Boolean",
+              "name": "exists",
+              "tagType": "AtomicTag",
+              "value": false,
+              "valueSource": "memory"
+            },
+            {
+              "expression": "getMillis(now())-({[.]sequence}*100)",
+              "name": "value",
+              "tagType": "AtomicTag",
+              "valueSource": "expr"
+            },
+            {
+              "name": "sequence",
+              "tagType": "AtomicTag",
+              "valueSource": "memory"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
