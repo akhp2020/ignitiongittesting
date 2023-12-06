@@ -1,10 +1,10 @@
 {
-  "scope": "G",
-  "version": 1,
+  "scope": "C",
+  "version": 2,
   "restricted": false,
   "overridable": true,
   "files": [
-    "view.json",
+    "window.bin",
     "thumbnail.png"
   ],
   "attributes": {
@@ -12,6 +12,8 @@
       "actor": "admin",
       "timestamp": "2023-12-04T13:32:37Z"
     },
-    "lastModificationSignature": "57fbebf55dfdb9dcb4d4f1608faa59cf917d9f55bc8c4541e349aab7a70ea8be"
+    "xml-format-version": 1,
+    "open-on-start": true,
+    "lastModificationSignature": "bd364678e2c1458a5737af1fe82923bc923ac8338baa89e686c6f37af9f06b6f"
   }
 }

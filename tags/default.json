@@ -2194,6 +2194,14 @@
       "valueSource": "memory"
     },
     {
+      "historyEnabled": false,
+      "historyProvider": "test",
+      "name": "tstest 2",
+      "tagType": "AtomicTag",
+      "value": 25,
+      "valueSource": "memory"
+    },
+    {
       "name": "machineValues",
       "parameters": {
         "Unit": {

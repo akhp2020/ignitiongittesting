@@ -11,8 +11,8 @@
         "position": {
           "height": 175,
           "width": 300,
-          "x": 90,
-          "y": 212
+          "x": -38,
+          "y": 488
         },
         "props": {
           "backgroundColor": "",
@@ -55,6 +55,18 @@
           }
         },
         "type": "ia.chart.gauge"
+      },
+      {
+        "meta": {
+          "name": "AlarmJournalTable"
+        },
+        "position": {
+          "height": 298,
+          "width": 587,
+          "x": 112,
+          "y": 39
+        },
+        "type": "ia.display.alarmjournaltable"
       }
     ],
     "meta": {
